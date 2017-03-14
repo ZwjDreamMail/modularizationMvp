@@ -1,0 +1,27 @@
+ext {
+
+    //Version
+    supportLibrary = '25.1.0'
+
+    //android
+    CompileSdkVersion = 25
+    BuildSdkVersion = "25.0.0"
+    MinSdkVersion = 14
+    TargetSdkVersion = 17
+
+    //libraries dependencies
+    supportDependencies = [
+            umengAnalytics   : 'com.umeng.analytics:analytics:latest.integration',
+            supportAnnotation: "com.android.support:support-annotations:${supportLibrary}",
+            supportAppcompat : "com.android.support:appcompat-v7:${supportLibrary}",
+            supportV4        : "com.android.support:support-v4:${supportLibrary}",
+            supportDesign    : "com.android.support:design:${supportLibrary}",
+            cardview         : "com.android.support:cardview-v7:${supportLibrary}",
+            ambilWarnna      : "com.github.yukuku:ambilwarna:2.0.1",
+            supportToast     : "com.github.johnpersano:supertoasts:1.3.4@aar",
+
+            /* arouter_c        : "com.alibaba:arouter-compiler:1.0.3",
+            arouter_a        : "com.alibaba:arouter-api:1.0.7",
+            vlayout          : "com.alibaba.android:vlayout:1.0.2@aar"*/
+    ]
+}
